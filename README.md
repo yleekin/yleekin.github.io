@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/yleekin/yleekin.github.io/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[Study Link] (https://github.com/yleekin/yleekin.github.io/edit/master/StudyNote_CS.html)
+[Study Link](https://github.com/yleekin/yleekin.github.io/edit/master/StudyNote_CS.html)
 
 ### Markdown
 
