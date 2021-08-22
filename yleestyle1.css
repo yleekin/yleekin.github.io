@@ -1,24 +1,19 @@
-*{
-    box-sizing: border-box;
-    /* background-color:green; */
-    padding: 0;
-}
 body{
     font-family: Arial;
     padding: 0.2px;
-    /* background: #f1f1f1; */
+    margin: 0px;
 }
 header {
-    border-style: dashed;
-    border-width: 1px;
+    border: 1px dashed;
 }
-.header h1{
+#welcome{
     text-align: center;
 }
-.header a{
+#welcome a{
     text-decoration: none;
     font-family: fantasy;
     color: darkslateblue;
+    
 }
 
 .row:after{
@@ -35,7 +30,7 @@ header {
 .navsection{
     overflow: hidden;
     background-color: rgb(18, 19, 26);
-    /* padding: 0px 200px; */
+    padding-left: 50px;
     font-size: 20px
 }
 
@@ -75,12 +70,9 @@ header {
 
 }
 .mainfull{
-    border-style: dashed;
-    border-width: 1px;
-    float: left;
-    width : 100%;
-    padding :20px 120px;
-    /* background-color: rgb(255, 255, 255); */
+    border: 1px dashed;
+    display: block;
+    padding :50px;
     background-color: rgb(206, 206, 206);
 
 }
@@ -92,17 +84,14 @@ header {
 }
 
 .studydiv{
-    border-style: dashed;
+    border: 1px dashed;
     display: grid;
-    /* grid-template-columns: 20% 20% 20% 20%; */
     grid-template-columns: 150px 150px 150px 150px;
     grid-template-rows: 150px 150px 150px;
     grid-gap: 20px 20px;   
 }
 .studydiv a{
 
-    /* padding: 40% 0px; */
-    /* padding:10px 0; */
     border-radius: 5px;
     background-color: whitesmoke;
     font-family: Serif;
