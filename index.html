@@ -3,9 +3,12 @@
     <head>
         <link rel="stylesheet" type="text/css" href="./yleestyle1.css">
     </head>
+
     <body>        
-        <header class="header">
-            <h1 id="welcome"><a href="./index.html">A ship is safe in the harbor, but...</a></h1>
+        <header >
+            <!-- <div class="titleLeft">Left</div> -->
+            <div class="titleCenter"><h1 id="welcome"><a href="./index.html">A ship is safe in the harbor, but...</a></h1></div>
+            <!-- <div class="titleRight">Right</div> -->
         </header>
         <nav class="navsection">
             <a href="./Study/StudyPage.html">Study Page</a>
@@ -13,24 +16,44 @@
             <a href="#">Cafe</a>
         </nav>
 
-        <div class="mainfull" style = "height:500px;">
-            <p>Programming Language </p>
-            <p>Web Programming</p>
-            <p>Database</p>
-            <p>Linux</p>
-            <p>Web Server</p>
-            <p>Data Structure/Algorithm</p>
-            <p>Instrument Control</p>
-            <p>IoT</p>
-            <p>Embedded System</p>
-            <p>RF Applications</p>
-            
-                
+        <div class="row"> <!--style = "height:500px;"-->
+            <div class="leftdiv">
+            <script>
+                var topics = [
+                "Programming Language ",
+                "Web Programming",
+                "Database",
+                "Linux",
+                "Web Server",
+                "Data Structure/Algorithm",
+                "Instrument Control",
+                "IoT",
+                "Embedded System",
+                "RF Applications",
+                "Programming Language ",
+                "Web Programming",
+                "Database",
+                "Linux",
+                "Web Server",
+                "Data Structure/Algorithm",
+                "Instrument Control",
+                "IoT",
+                "Embedded System",
+                "RF Applications"
+                ];
+                for (var i in topics)
+                {
+                    // document.querySelector(this).write("<p>"+topic+"</p");
+                    document.write("<a>"+topics[i]+"</a>");
+                }
+            </script>
+            </div>
         </div>
-
-        <footer class="bottom">
-            <p><small>ykin's webpage &mdash; Theme by </small></p>
-        </footer>
         
+        <footer class="bottom">
+            <p><small>ykin's webpage   </small></p>
+        </footer>
+
+        <script src = "./yleejs.js"></script>
     </body>
 </html>
